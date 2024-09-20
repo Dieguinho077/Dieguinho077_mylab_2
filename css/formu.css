@@ -1,0 +1,25 @@
+* {
+    background-color: antiquewhite;
+}
+h1
+{
+    background-color: black;
+    color: orange;
+    padding: 1cm;
+}
+
+.destacado {
+
+    color: blue;
+    font-size: x-large;
+}
+footer {
+    text-align: center;
+    background-color: slategray;
+    color: black;
+    padding-left: 5px;
+    padding-top: 0.6cm;
+}
+#este-destacado{
+    background-color: slategray;
+}

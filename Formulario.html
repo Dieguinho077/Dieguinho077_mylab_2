@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formu.css">
+    <title>Formulario</title> 
+
+    
+</head>
+<body>
+    <h1>Formulario de contacto</h1> <br>
+<section class="destacado">
+    <p> Por favor rellene sus datos</p>
+</section>
+    
+<section>
+    <form action="contact.php" nethod="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+    <p> <label>Nombre: <input name="Nombre" size="10" maxlength="10"></label> </p>
+    <p> <label>Apellido: <input name="Apellido" size="15" maxlength="40"></label> </p>
+</fieldset>
+
+<fieldset>
+    <legend>Sugerencias</legend>
+<p> <label>Comentarios: <input name="Comentarios" size="100"></label> </p>
+</fieldset>
+
+<fieldset>
+    <legend>Usuario y Clave</legend>
+<p> <label>Usuario: <input name="Usuario" maxlength="20"></label> </p>
+<p> <label>Clave: <input type="password" name="Clave" maxlength="20"></label> </p>
+<p><input type="submit" value="Enviar"></p>
+</fieldset>
+
+    </form>
+</section>
+<footer>
+                            
+    <p id="este-destacado"> Centro Regional Universitario Zona Atlántica</p>
+    <br>
+    <address style="display: flex; justify-content: space-between; align-items: center; background-color: slategray;">
+    <p id="este-destacado"> Dirección: Monseñor Esandi y Ayacucho.</p>
+    <p id="este-destacado">Viedma(8500), Río Negro, Argentina.</p>
+    <p id="este-destacado">Teléfonos: +54-2920-422921/423772 </p>
+   </address>
+<br>
+<br>
+<div style="display:block; align-items: center; background-color: slategray;">
+<img src="https://pics.craiyon.com/2023-11-23/igOoQ9_tQrWRQeJINHxOOw.webp" 
+alt="Biblio" style="width: 60px; height: auto; display: inline-block;">
+&copy; CURZA 2024. Todos los derechos reservados. &copy;
+</div>
+</footer>
+</body>
+</html>

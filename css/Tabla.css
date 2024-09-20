@@ -1,0 +1,21 @@
+body {
+    background-color: slategrey;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100;
+    border: 1px solid #ddd;
+}
+
+th {
+   padding: 20px;
+   border: 1px solid #ddd;
+   background-color: #111;
+   color: #ddd;
+}
+td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
