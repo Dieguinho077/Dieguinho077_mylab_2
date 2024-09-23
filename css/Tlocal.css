@@ -105,3 +105,18 @@ div{
 .logo-conteiner img {
     width: 70px; 
     height: 70px;}
+
+    div.espacio{
+        margin-top: 20px; 
+        padding-bottom: 10px; 
+        background-color: slategray;
+ }
+
+      div.espacio2{
+        margin-top: 30px;    
+        padding-bottom: 20px;
+        background-color: slategray;
+      }
+
+      div.espacioTop{ margin-top: 20px; 
+        padding-bottom: 10px;}
